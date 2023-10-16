@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7f1bff79126ab8fe17744e062723179b36e17f97"
+      }
+    },
+    {
+      "identity" : "googlemaps-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/darrarski/GoogleMaps-SP",
+      "state" : {
+        "revision" : "ddbd27194bd6877aaa6916da12c1033cd1dc313c",
+        "version" : "7.1.0"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "branch" : "master",
+        "revision" : "45517c3cfec9469bbdd4f86e32393c28ae9df0bc"
+      }
+    },
+    {
+      "identity" : "skeletonview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Juanpe/SkeletonView.git",
+      "state" : {
+        "revision" : "739a4f5d78731bebc48811c75fa9e1f4c4cef23e",
+        "version" : "1.30.4"
+      }
+    },
+    {
+      "identity" : "swiftlocation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftLocation",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f8ec8e97095eb3a5312370ad94b921768217625f"
+      }
+    }
+  ],
+  "version" : 2
+}

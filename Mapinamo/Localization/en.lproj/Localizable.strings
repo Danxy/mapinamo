@@ -1,0 +1,76 @@
+"app_name" = "Mapinamo";
+"app_name_description" = "hidden treasures";
+
+
+//TreasureMainViewController
+"treasure_main_view_controller_lbl_title" = "MAPINAMO";
+"treasure_main_view_controller_lbl_subtitle" = "HIDDEN TREASURES";
+"treasure_main_view_controller_btn_create" = "I'm offering";
+"treasure_main_view_controller_btn_find" = "I'm looking for";
+
+//CreateTreasureVC
+"create_treasure_vc_button_create" = "create here";
+"create_frag_final_menu_title" = "Treasure has Created";
+"pick_frag_final_menu_title" = "Treasure has Picked";
+"frag_final_menu_1_button_title" = "share";
+"frag_final_menu_2_button_title" = "home";
+"frag_final_pick_menu_body" = "Thank You!";
+"treasure_map_frag_comment_title" = "Comments: «%@»";
+"treasure_map_frag_category_title" = "Category: %@";
+"treasure_map_frag_date_title" = "Created: %@";
+"choose_location_frag_lat_lng_title" = "Latitude: %@\nLongitude: %@\n Altitude: %@m";
+"choose_location_submit_button" = "Confirm";
+"treasure_map_frag_marker_details" = "Treasure details";
+"treasure_map_frag_categories_title" = "Show by category";
+"treasure_map_frag_submit_button" = "pick up";
+"treasure_map_frag_submit_button_disabled" = "picked";
+
+"date_format_just_now_title" = "Just now";
+"date_format_tomorrow_title" = "Tomorrow, %@";
+"date_format_today_title" = "Today, %@";
+"date_format_yesterday_title" = "Yesterday, %@";
+
+//TreasureDetailsViewController
+"treasure_details_frag_title" = "TREASURE DETAILS";
+"treasure_details_frag_select_a_category_title" = "Category:";
+"treasure_details_lablel_name" = "Item Name:";
+"treasure_details_lablel_category" = "Choose category:";
+"treasure_details_lablel_description" = "Comments (optional):";
+"treasure_details_frag_label_applied_image" = "Applied image:";
+"treasure_details_frag_confirm_button_title" = "submit";
+
+//PlaceTreasureViewController
+"place_reasure_view_controller_lbl_name" = "Name:";
+"place_reasure_view_controller_lbl_created" = "Created:";
+"place_reasure_view_controller_lbl_description" = "Comments: ";
+"place_reasure_view_controller_lbl_category" = "Category: ";
+"place_reasure_view_controller_btn_place" = "confirm";
+
+//TreasureCreatedViewController
+"treasure_created_view_controller_lbl_title" = "TREASURE WAS CREATED";
+"treasure_created_view_controller_btn_share" = "share";
+"treasure_created_view_controller_btn_home" = "home";
+
+//TreasurePickedViewController
+"treasure_picled_view_controller_lbl_title" = "TREASURE IS YOURS";
+"treasure_picled_view_controller_btn_home" = "home";
+
+//TreasuresMapViewController
+"treasures_map_view_controller_lbl_fetch_location_error_label_error" = "please enable location services";
+"treasures_map_view_controller_lbl_fetch_location_error_label_distance_error" = "pickup is available within a radius of 50 meters";
+"treasures_map_view_controller_lbl_category" = "Category:";
+"treasures_map_view_controller_lbl_description" = "Comments:";
+"treasures_map_view_controller_lbl_created_date" = "Created:";
+"treasures_map_view_controller_btn_pick_up" = "pick up";
+"treasures_map_view_controller_btn_state_picked" = "picked";
+"treasures_map_view_controller_btn_show_photos" = "Show photo";
+
+//global
+"latitude" = "Latitude: ";
+"longitude" = "Longitude: ";
+
+"locaton_error_title" = "Location fetching error";
+"locaton_error_message" = "Location services not enabled, please, turn them on in your settings";
+
+//Update
+"update" = "Please update the App to the latest version to use it.";

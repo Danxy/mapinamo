@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="roboto_medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="roboto_regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="afK-IL-We0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ou-Rd-vYg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAPINAMO" textAlignment="center" lineBreakMode="clip" minimumScaleFactor="0.29999999999999999" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPt-TE-H4R">
+                                        <rect key="frame" x="110" y="424.5" width="194" height="47"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="40"/>
+                                        <color key="textColor" name="white"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIDDEN TREASURES" textAlignment="center" lineBreakMode="clip" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QF7-6S-IwV">
+                                        <rect key="frame" x="110" y="463.5" width="194" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22.5"/>
+                                        <color key="textColor" name="white_50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dPt-TE-H4R" firstAttribute="leading" secondItem="6ou-Rd-vYg" secondAttribute="leading" constant="110" id="4vm-Bw-aVM"/>
+                                    <constraint firstItem="QF7-6S-IwV" firstAttribute="leading" secondItem="dPt-TE-H4R" secondAttribute="leading" id="Dvs-zP-Roo"/>
+                                    <constraint firstItem="QF7-6S-IwV" firstAttribute="top" secondItem="dPt-TE-H4R" secondAttribute="bottom" constant="-8" id="jC7-Js-zd9"/>
+                                    <constraint firstAttribute="trailing" secondItem="dPt-TE-H4R" secondAttribute="trailing" constant="110" id="pWY-oa-WXp"/>
+                                    <constraint firstItem="dPt-TE-H4R" firstAttribute="centerY" secondItem="6ou-Rd-vYg" secondAttribute="centerY" id="tU9-PR-QvL"/>
+                                    <constraint firstItem="QF7-6S-IwV" firstAttribute="width" secondItem="dPt-TE-H4R" secondAttribute="width" id="wbf-c7-C9K"/>
+                                    <constraint firstItem="QF7-6S-IwV" firstAttribute="trailing" secondItem="dPt-TE-H4R" secondAttribute="trailing" id="xEW-6p-qA4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nEf-ef-JQb"/>
+                        <color key="backgroundColor" name="pink_85"/>
+                        <color key="tintColor" name="blue_purple"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6ou-Rd-vYg" secondAttribute="trailing" id="WUw-5e-7rx"/>
+                            <constraint firstItem="6ou-Rd-vYg" firstAttribute="top" secondItem="afK-IL-We0" secondAttribute="top" id="dsa-h4-iv0"/>
+                            <constraint firstAttribute="bottom" secondItem="6ou-Rd-vYg" secondAttribute="bottom" id="jJ8-dt-JCs"/>
+                            <constraint firstItem="6ou-Rd-vYg" firstAttribute="leading" secondItem="afK-IL-We0" secondAttribute="leading" id="y70-Dz-qOr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="blue_purple"/>
+    <resources>
+        <namedColor name="blue_purple">
+            <color red="0.23529411764705882" green="0.18823529411764706" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pink_85">
+            <color red="0.44313725490196076" green="0.32549019607843138" blue="0.71764705882352942" alpha="0.85000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white_50">
+            <color red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

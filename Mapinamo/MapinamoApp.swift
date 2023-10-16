@@ -7,11 +7,14 @@
 
 import SwiftUI
 
-@main
-struct MapinamoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//@main
+//struct MapinamoApp: App {
+//    
+//    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+//    
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+//    }
+//}
