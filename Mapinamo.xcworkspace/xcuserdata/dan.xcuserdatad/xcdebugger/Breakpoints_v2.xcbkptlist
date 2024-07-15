@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9CFA3F91-2DD0-4738-BD95-11A7FD3D6D43"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "A2510216-F507-49E6-AFBD-BBB811A595B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25D68573-8B01-4CDB-9168-327046713D40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/CreateTreasure/CreateTreasureViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "placeTreasure()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25D68573-8B01-4CDB-9168-327046713D40 - a6a60054bc45175e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Mapinamo.TreasureResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Mapinamo.CreateTreasureViewModel.placeTreasure() -&gt; ()"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/MyProjects/Mapinamo/Mapinamo/UI/CreateTreasure/CreateTreasureViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "25D68573-8B01-4CDB-9168-327046713D40 - 560b328bb30fccd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Mapinamo.TreasureResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Mapinamo.CreateTreasureViewModel.placeTreasure() -&gt; ()"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/MyProjects/Mapinamo/Mapinamo/UI/CreateTreasure/CreateTreasureViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "91EDBFD0-4CE0-4351-848C-800729FFCC17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4313F41C-419D-4D82-B4B9-476DE07A920D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Offering/Details/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "openImageViewer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11F1F08A-08EB-4B55-9CA2-054362967F56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getTreasureForId(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E36F42E-A1EC-4927-869C-7E06D7909145"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "getImages(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E08FB3E2-CCF3-4F9E-9630-0824035BB46C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/MarkerDetails/MarkerDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "gAddressReceived(place:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "575A4D99-0741-4A0C-8080-A92DD862C5DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/MarkerDetails/MarkerDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setupObservers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04703D7C-E6BF-4BE7-A347-8A23A45A03B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "createMarkerForTreasure(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04703D7C-E6BF-4BE7-A347-8A23A45A03B5 - cefa76767dd65355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mapinamo.TreasureMapViewController.createMarkerForTreasure(Mapinamo.TreasureData) -&gt; __C.GMSMarker"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/IOS/mapinamo-ios/Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "324"
+                  endingLineNumber = "324"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "04703D7C-E6BF-4BE7-A347-8A23A45A03B5 - cefa76767dd65355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mapinamo.TreasureMapViewController.createMarkerForTreasure(Mapinamo.TreasureData) -&gt; __C.GMSMarker"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/IOS/mapinamo-ios/Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "324"
+                  endingLineNumber = "324"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98D0BAA8-6B37-4B35-9723-329AD5FDFBED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "getTreasures(latitude:longitude:categoryIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDA3EB99-30C1-4AF8-9281-462C906A0E34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "getMarkerForTreasure(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDA3EB99-30C1-4AF8-9281-462C906A0E34 - 1babf4ea1f37193f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mapinamo.TreasureMapViewController.getMarkerForTreasure(Mapinamo.TreasureData) -&gt; Swift.Optional&lt;__C.GMSMarker&gt;"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/IOS/mapinamo-ios/Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "316"
+                  endingLineNumber = "316"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "FDA3EB99-30C1-4AF8-9281-462C906A0E34 - 5fae439dcc73e5fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.GMSMarker) -&gt; Swift.Bool in Mapinamo.TreasureMapViewController.getMarkerForTreasure(Mapinamo.TreasureData) -&gt; Swift.Optional&lt;__C.GMSMarker&gt;"
+                  moduleName = "Mapinamo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Documents/Develop/IOS/mapinamo-ios/Mapinamo/UI/Find/Map/TreasureMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDF69106-DEE9-4173-A899-DE36F518B189"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mapinamo/UI/Find/Map/TreasureMapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "getTreasures(latitude:longitude:categoryIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

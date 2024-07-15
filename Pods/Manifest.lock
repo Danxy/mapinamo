@@ -1,0 +1,110 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Branch (1.39.4)
+  - DACircularProgress (2.3.1)
+  - Google-Maps-iOS-Utils (3.10.3):
+    - Google-Maps-iOS-Utils/Clustering (= 3.10.3)
+    - Google-Maps-iOS-Utils/Geometry (= 3.10.3)
+    - Google-Maps-iOS-Utils/GeometryUtils (= 3.10.3)
+    - Google-Maps-iOS-Utils/Heatmap (= 3.10.3)
+    - Google-Maps-iOS-Utils/QuadTree (= 3.10.3)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (3.10.3):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (3.10.3):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/GeometryUtils (3.10.3):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (3.10.3):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (3.10.3):
+    - GoogleMaps
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (5.0.0)
+  - IDMPhotoBrowser (1.11.3):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - IQKeyboardManager (6.5.6)
+  - lottie-ios (3.2.3)
+  - pop (1.0.12)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (5.0.1)
+  - SwiftGen (6.4.0)
+  - SwiftLocation (4.2.0)
+  - TOMSMorphingLabel (0.5.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Branch
+  - Google-Maps-iOS-Utils (~> 3.10.3)
+  - GoogleMaps (~> 5.1.0)
+  - GooglePlaces
+  - IDMPhotoBrowser (~> 1.11.3)
+  - IQKeyboardManager
+  - lottie-ios
+  - RxCocoa (~> 6.2.0)
+  - RxSwift (~> 6.2.0)
+  - SnapKit (~> 5.0.1)
+  - SwiftGen (~> 6.4.0)
+  - SwiftLocation (~> 4.2.0)
+  - TOMSMorphingLabel (~> 0.5)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Branch
+    - DACircularProgress
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - GooglePlaces
+    - IDMPhotoBrowser
+    - IQKeyboardManager
+    - lottie-ios
+    - pop
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SwiftGen
+    - SwiftLocation
+    - TOMSMorphingLabel
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Branch: d21c40c47b5c15c6ab709cdf7d965a50059e0546
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Google-Maps-iOS-Utils: 95d5ca4d2004314eff88c1819b969db6cac37ab6
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
+  GooglePlaces: 5d87ca13ed98b7a937e0d8bc7026f718c7263271
+  IDMPhotoBrowser: b96159fe4adb991a844068eb17dab9c0b7d7e51a
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftLocation: 609ac8859f2c5d48a6cadd2a58c63b1dae02dc25
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+
+PODFILE CHECKSUM: 2b5e702eb74641f0f6f879dec457c03ffec8188a
+
+COCOAPODS: 1.10.2

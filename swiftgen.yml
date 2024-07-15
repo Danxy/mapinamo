@@ -3,23 +3,23 @@ xcassets:
     - Mapinamo/Assets.xcassets
     - Mapinamo/Colors.xcassets
   outputs:
-    - templateName: swift5
+    - templateName: swift4
       output: Generated/assets-images.swift
 ib:
   inputs:
     - Mapinamo
   outputs:
-    - templateName: scenes-swift5
+    - templateName: scenes-swift4
       output: Generated/storyboard-scenes.swift
-    - templateName: segues-swift5
+    - templateName: segues-swift4
       output: Generated/storyboard-segues.swift
 fonts:
   inputs: Mapinamo/Fonts
   outputs:
-    templateName: swift5
+    templateName: swift4
     output: Generated/fonts.swift
 strings:
   inputs: Mapinamo/Localization/en.lproj/Localizable.strings
   outputs:
-    templateName: structured-swift5
+    templateName: structured-swift4
     output: Generated/strings.swift

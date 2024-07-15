@@ -65,6 +65,9 @@
 "treasures_map_view_controller_btn_state_picked" = "picked";
 "treasures_map_view_controller_btn_show_photos" = "Show photo";
 
+//MarkerDetailsViewController
+"marker_details_view_controller_btn_direction" = "Direction";
+
 //global
 "latitude" = "Latitude: ";
 "longitude" = "Longitude: ";

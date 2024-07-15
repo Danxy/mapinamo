@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h4G-mZ-NLA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="roboto_bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="roboto_medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="roboto_regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pickup Treasure Popup View Controller-->
+        <scene sceneID="72f-An-Yva">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="h4G-mZ-NLA" customClass="PickupTreasurePopupViewController" customModule="Mapinamo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Mm-ce-lcy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6j-eC-fkF" customClass="GradientView" customModule="Mapinamo" customModuleProvider="target">
+                                <rect key="frame" x="20" y="253" width="374" height="309"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9F-8D-4lt">
+                                        <rect key="frame" x="324" y="10" width="40" height="41"/>
+                                        <state key="normal" image="icons_cross"/>
+                                        <connections>
+                                            <action selector="crossButtonAction:" destination="7jL-00-cVW" eventType="touchUpInside" id="GOT-tH-cGH"/>
+                                            <action selector="crossButtonAction:" destination="h4G-mZ-NLA" eventType="touchUpInside" id="I7M-h0-M9o"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to pick up the Treasure?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pz3-db-AZh">
+                                        <rect key="frame" x="26" y="61" width="322" height="68"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="29"/>
+                                        <color key="textColor" name="white"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofO-gy-wX1" customClass="MainButton" customModule="Mapinamo" customModuleProvider="target">
+                                        <rect key="frame" x="72" y="159" width="230" height="50"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="22"/>
+                                        <inset key="imageEdgeInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="confirm" image="tick"/>
+                                        <state key="selected" image="tick"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="26"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="confirmButtonAction:" destination="7jL-00-cVW" eventType="touchUpInside" id="d9Y-Te-EnE"/>
+                                            <action selector="confirmButtonAction:" destination="h4G-mZ-NLA" eventType="touchUpInside" id="pGS-zP-KGt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzj-GN-Uae" customClass="SecondaryButton" customModule="Mapinamo" customModuleProvider="target">
+                                        <rect key="frame" x="72" y="229" width="230" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="H6s-CV-fFI"/>
+                                            <constraint firstAttribute="height" constant="50" id="VBE-gm-x5z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
+                                        <state key="normal" title="cancel">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="26"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="cancelButtonAction:" destination="h4G-mZ-NLA" eventType="touchUpInside" id="FDE-P2-YuB"/>
+                                            <action selector="cancelButtonAction:" destination="7jL-00-cVW" eventType="touchUpInside" id="YLx-Bv-kq3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstItem="ofO-gy-wX1" firstAttribute="width" secondItem="Qzj-GN-Uae" secondAttribute="width" id="52j-tA-9Gw"/>
+                                    <constraint firstItem="Pz3-db-AZh" firstAttribute="centerX" secondItem="t6j-eC-fkF" secondAttribute="centerX" id="F1d-Uy-s8b"/>
+                                    <constraint firstItem="ofO-gy-wX1" firstAttribute="centerX" secondItem="t6j-eC-fkF" secondAttribute="centerX" id="FMj-lp-c2F"/>
+                                    <constraint firstItem="Pz3-db-AZh" firstAttribute="top" secondItem="I9F-8D-4lt" secondAttribute="bottom" constant="10" id="SXj-Hw-WTy"/>
+                                    <constraint firstItem="ofO-gy-wX1" firstAttribute="top" secondItem="Pz3-db-AZh" secondAttribute="bottom" constant="30" id="UpD-gP-wy5"/>
+                                    <constraint firstItem="I9F-8D-4lt" firstAttribute="top" secondItem="t6j-eC-fkF" secondAttribute="top" constant="10" id="Vwn-ZY-Q7h"/>
+                                    <constraint firstItem="Qzj-GN-Uae" firstAttribute="top" secondItem="ofO-gy-wX1" secondAttribute="bottom" constant="20" id="c9y-cd-x1h"/>
+                                    <constraint firstItem="ofO-gy-wX1" firstAttribute="height" secondItem="Qzj-GN-Uae" secondAttribute="height" id="itg-e7-LFX"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qzj-GN-Uae" secondAttribute="bottom" constant="30" id="j1F-ho-DcF"/>
+                                    <constraint firstItem="Qzj-GN-Uae" firstAttribute="centerX" secondItem="t6j-eC-fkF" secondAttribute="centerX" id="m5m-mj-Z10"/>
+                                    <constraint firstItem="Pz3-db-AZh" firstAttribute="leading" secondItem="t6j-eC-fkF" secondAttribute="leading" constant="26" id="nb3-ph-YBg"/>
+                                    <constraint firstAttribute="trailing" secondItem="I9F-8D-4lt" secondAttribute="trailing" constant="10" id="yjW-c9-wzL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" name="blue"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" name="pink"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="16q-vS-DCh"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t6j-eC-fkF" firstAttribute="centerX" secondItem="16q-vS-DCh" secondAttribute="centerX" id="5II-Lj-yZU"/>
+                            <constraint firstItem="16q-vS-DCh" firstAttribute="trailing" secondItem="t6j-eC-fkF" secondAttribute="trailing" constant="20" id="ZYV-VU-Yjl"/>
+                            <constraint firstItem="t6j-eC-fkF" firstAttribute="leading" secondItem="16q-vS-DCh" secondAttribute="leading" constant="20" id="bLF-Vi-ogt"/>
+                            <constraint firstItem="t6j-eC-fkF" firstAttribute="centerY" secondItem="16q-vS-DCh" secondAttribute="centerY" multiplier="0.9" id="dmq-qL-8zl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZB4-Og-HAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="7jL-00-cVW" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons_cross" width="40" height="40.5"/>
+        <image name="tick" width="20" height="20"/>
+        <namedColor name="blue">
+            <color red="0.11372549019607843" green="0.12156862745098039" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pink">
+            <color red="0.44313725490196076" green="0.32549019607843138" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
